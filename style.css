@@ -1,4 +1,4 @@
-body {
+ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -12,6 +12,7 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    
 }
 
 nav ul {
@@ -30,6 +31,15 @@ nav ul li a {
     font-weight: bold;
 }
 
+#photo img{
+    width: 150px;
+    height: 160px;
+    /* background-color: red; */
+    /* position: absolute; */
+    /* top: 8px;
+    left: 8px; */
+}
+
 .card {
     background: #fff;
     margin: 20px;
@@ -41,6 +51,13 @@ nav ul li a {
 .project {
     border: 1px solid #ddd;
     margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Certification {
+    border: 1px solid #ddd;
+    margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
 }
@@ -72,3 +89,230 @@ button {
 button:hover {
     background: #feb47b;
 }
+.table{
+    border: 1px solid groove silver;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+
+
+ 
+
+.social-icons {
+    display: flex;
+    gap: 30px;
+}
+.social-icons .icon {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+     
+    }
+
+.social-icons .icon img {
+    position: relative;
+    width: 70px;
+    height: 70px;
+  
+    /* background-color: #f75858; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+     
+  
+}
+
+
+
+
+
+
+.social-icons .icon:hover {
+    transform: scale(1.1);
+}
+.social-icons .icon i {
+    font-size: 24px;
+    color: #000;
+    /* background-image: url('html.png'); */
+
+}
+.social-icons .icon.HTML:hover::before {
+    content: 'HTML';
+    font-weight: 400;
+    position: absolute;
+    top: -40px;
+    background-color: #3b5998;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.social-icons .icon.css:hover::before {
+    content: 'CSS';
+    font-weight: 400;
+    position: absolute;
+    top: -40px;
+    background-color: #3b5998;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.social-icons .icon.js:hover::before {
+    content: 'JavaScript';
+    font-weight: 400;
+    position: absolute;
+    top: -40px;
+    background-color: #3b5998;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.social-icons .icon.bootstrap:hover::before {
+    content: 'bootstrap';
+    font-weight: 400;
+    position: absolute;
+    top: -40px;
+    background-color: #3b5998;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.social-icons .icon.tailwind:hover::before {
+    content: 'Tailwind';
+    font-weight: 400;
+    position: absolute;
+    top: -40px;
+    background-color: #3b5998;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.social-icons .icon.react:hover::before {
+    content: 'React';
+    font-weight: 400;
+    position: absolute;
+    top: -40px;
+    background-color: #3b5998;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.social-icons .icon.php:hover::before {
+    content: 'PHP';
+    font-weight: 400;
+    position: absolute;
+    top: -40px;
+    background-color: #3b5998;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.social-icons .icon.laravel:hover::before {
+    content: 'Laravel';
+    font-weight: 400;
+    position: absolute;
+    top: -40px;
+    background-color: #3b5998;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+
+.social-icons .icon.wordpress:hover::before {
+    content: 'Wordpress';
+    font-weight: 400;
+    position: absolute;
+    top: -40px;
+    background-color: #3b5998;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+
+
+
+
+/* .social-icons .icon.facebook:hover::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #3b5998 transparent transparent transparent;
+   
+}
+  */
+ 
+
+
+
+  .social-icons{
+    display: flex;
+    /* grid-gap: 15px; */
+  /* grid-template-columns: repeat(auto-fit, 186px); */
+    flex-wrap: wrap; /*Allows items to wrap to the next line*/
+    gap: 18px;/* Space between items */
+}
+
+.icon i img{
+    flex: 1  1  100px; /* Flex items, minimum width of 200px */
+}
+
+
+/* Responsive adjustments */
+@media (mix-width: 400px ) {
+    .social-icons {
+        flex-direction: column; /*Stack items vertically*/
+        /* grid-template-columns: repeat(auto-fit, 186px); */
+    }
+}
+
+@media (max-width:800px ) {
+    .social-icons {
+        flex-direction: row; /*Stack items vertically*/
+        
+    }
+}
+
